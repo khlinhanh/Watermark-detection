@@ -1,4 +1,4 @@
-# Watermark Detector
+# Watermark Detection
 
 ## Mục lục
 - [Giới thiệu](#giới-thiệu)
