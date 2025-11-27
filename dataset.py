@@ -1,9 +1,9 @@
-import torch
-from torch.utils.data import Dataset, DataLoader
-from torchvision import transforms
-from PIL import Image
 import pandas as pd
+from torch.utils.data import Dataset
+from PIL import Image
+import torch
 import os
+from torchvision import transforms
 
 train_transform = transforms.Compose([
     transforms.Resize((224,224)),
@@ -25,10 +25,10 @@ class WatermarkDataset(Dataset):
         self.df = pd.read_csv(csv_file)
         self.img_dir = img_dir
         self.transform = transform
-    
+
     def __len__(self):
         return len(self.df)
-    
+
     def __getitem__(self, idx):
         row = self.df.iloc[idx]
         path = os.path.join(self.img_dir, row['filename'])
@@ -39,12 +39,3 @@ class WatermarkDataset(Dataset):
         s = float(row['severity'])
         bbox = torch.tensor([row['x'], row['y'], row['width'], row['height']], dtype=torch.float32)
         return img, torch.tensor(t, dtype=torch.long), torch.tensor(s, dtype=torch.float32), bbox
-
-def get_loaders(csv_file, img_dir, batch_size=8, val_ratio=0.2):
-    dataset = WatermarkDataset(csv_file, img_dir, transform=train_transform)
-    val_size = int(len(dataset)*val_ratio)
-    train_size = len(dataset)-val_size
-    train_set, val_set = torch.utils.data.random_split(dataset,[train_size,val_size])
-    train_loader = DataLoader(train_set,batch_size=batch_size,shuffle=True)
-    val_loader = DataLoader(val_set,batch_size=batch_size,shuffle=False)
-    return train_loader, val_loader
