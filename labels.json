@@ -1,0 +1,717 @@
+[
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_1.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                30,
+                30
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_2.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                40,
+                30
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_3.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                35,
+                30
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_4.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                35,
+                30
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_5.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                35,
+                30
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_6.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                35,
+                30
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_7.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                0,
+                0,
+                50,
+                50
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_8.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                225,
+                370,
+                275,
+                500
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_9.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                275,
+                500
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_10.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_11.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_12.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_13.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_14.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_15.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_16.png",
+        "watermark": {
+            "type": "Logo",
+            "bbox": [
+                0,
+                0,
+                27,
+                50
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_17.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_18.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_19.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_20.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_21.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_22.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_23.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_24.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_25.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_26.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_27.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_28.png",
+        "watermark": {
+            "type": "Text",
+            "bbox": [
+                200,
+                300,
+                365,
+                295
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_29.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_30.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_31.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_32.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_33.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_34.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_35.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_36.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_37.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_38.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_39.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_40.png",
+        "watermark": {
+            "type": "No Watermark",
+            "bbox": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_41.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_42.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                50,
+                200,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_43.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                125,
+                20,
+                500,
+                400
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_44.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_45.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_46.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_47.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_48.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_49.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_50.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "High"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_51.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Low"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_52.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_53.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_54.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "Medium"
+        }
+    },
+    {
+        "image_path": "/content/drive/MyDrive/watermark_dataset/img_55.png",
+        "watermark": {
+            "type": "Pattern",
+            "bbox": [
+                0,
+                0,
+                500,
+                400
+            ],
+            "intensity": "High"
+        }
+    }
+]
