@@ -5,9 +5,9 @@
 - [Các thành phần của dự án](#các-thành-phần-của-dự-án)
 - [Cách hoạt động](#cách-hoạt-động)
 - [Cài đặt](#cài-đặt)
-- [Lable dữ liệu](#Lable-dữ-liệu)
+- [Label dữ liệu](#label-dữ-liệu)
 - [Huấn luyện mô hình](#huấn-luyện-mô-hình)
-- [Demo Gradio](#Demo-gradio)
+- [Demo Gradio](#demo-gradio)
 - [Hiệu năng](#hiệu-năng)
 - [Cải tiến trong tương lai](#cải-tiến-trong-tương-lai)
 
@@ -56,18 +56,17 @@ Hệ thống hỗ trợ:
 4. **Training**  
    - Optimizer: Adam, LR=1e-4  
    - Train loop: loss tổng = cls + reg + bbox → backward → optimizer step  
-   - Ví dụ: 5 epochs  
-
-
+   - Ví dụ: 5 epochs
+  
+---
 
 ## Cài đặt
    ```
    git clone https:https://github.com/khlinhanh/Watermark-detection
   ```
----
-### Cách mô hình hoạt động
 
-## Label ảnh dữ liệu
+
+## Label dữ liệu
  ```python
 python dataset.py
 ```
@@ -87,7 +86,7 @@ python train.py
 img_1.png,0,0.66,10,20,50,30
  ```
 **Dataset**:  
-- Để chạy demo trên Colab, tải dataset từ Google Drive: [Link tải dataset](https://drive.google.com/drive/folders/xxxxxx?usp=sharing)  
+- Để chạy demo trên Colab, tải dataset từ Google Drive: [Link tải dataset](https://[drive.google.com/drive/folders/xxxxxx?usp=sharing](https://drive.google.com/drive/u/0/folders/1LSz8M5RJB8EDWvIkMKfHMLzD3mK3sT4m))  
 - Colab mount Drive và đặt `dataset_folder = "/content/drive/MyDrive/watermark_dataset"`
 - Nếu clone repo về local, tạo thư mục `watermark_dataset` và copy dữ liệu vào
 
@@ -99,6 +98,8 @@ python gradio_app.py
  ```
 - Tab Image: upload ảnh, nhận overlay + Grad-CAM + type/intensity
 - Tab Video: upload video, xuất video highlight watermark
+
+---
 
 **Dùng model trực tiếp trong python**:
  ```python
