@@ -5,20 +5,23 @@
 - [Các thành phần của dự án](#các-thành-phần-của-dự-án)
 - [Cách hoạt động](#cách-hoạt-động)
 - [Cài đặt](#cài-đặt)
-- [Cách sử dụng & Huấn luyện mô hình](#cách-sử-dụng--huấn-luyện-mô-hình)
+- [Lable dữ liệu](#Lable-dữ-liệu)
+- [Huấn luyện mô hình](#huấn-luyện-mô-hình)
+- [Demo Gradio](#Demo-gradio)
 - [Hiệu năng](#hiệu-năng)
 - [Cải tiến trong tương lai](#cải-tiến-trong-tương-lai)
 
 ---
 
 ## Giới thiệu
-Dự án này là một **Watermark Detector** sử dụng deep learning (CNN + ResNet) để phát hiện watermark trên ảnh và video.  
+Dự án này là một **Watermark Detection** sử dụng deep learning (CNN + ResNet) để phát hiện watermark trên ảnh và video.  
 Mô hình có **3 đầu ra**:
 - Loại watermark: Text, Logo, Pattern, No Watermark  
 - Cường độ watermark: Low, Medium, High  
 - Vị trí watermark (bounding box)  
 
 Hệ thống hỗ trợ:
+- Training pipeline hoàn chỉnh (CSV → Dataset → DataLoader → Training)
 - Ảnh đơn lẻ, thư mục ảnh hoặc video  
 - Trực quan hóa với bounding box và Grad-CAM
 
