@@ -86,7 +86,7 @@ python train.py
 img_1.png,0,0.66,10,20,50,30
  ```
 **Dataset**:  
-- Để chạy demo trên Colab, tải dataset từ Google Drive: [Link tải dataset](https://[drive.google.com/drive/folders/xxxxxx?usp=sharing](https://drive.google.com/drive/u/0/folders/1LSz8M5RJB8EDWvIkMKfHMLzD3mK3sT4m))  
+- Để chạy demo trên Colab, tải dataset từ Google Drive: [Link tải dataset](https://drive.google.com/drive/folders/1LSz8M5RJB8EDWvIkMKfHMLzD3mK3sT4m?usp=drive_link)  
 - Colab mount Drive và đặt `dataset_folder = "/content/drive/MyDrive/watermark_dataset"`
 - Nếu clone repo về local, tạo thư mục `watermark_dataset` và copy dữ liệu vào
 
