@@ -28,12 +28,12 @@ Hệ thống hỗ trợ:
 ---
 
 ## Các thành phần của dự án
-- `data_labeling/label_dataset.py`: Upload ảnh, tạo nhãn watermark với bounding box và intensity qua Gradio  
-- `dataloader/dataset_loader.py`: Dataset class, DataLoader, augmentation cho train/val  
-- `models/watermark_net.py`: ResNet-based model với 3 head (classification, intensity, bbox)  
-- `training/train_model.py`: Vòng lặp huấn luyện, loss function, optimizer  
-- `demo/gradio_demo.py`: Gradio demo cho ảnh/video với overlay và Grad-CAM  
-- `detectors/Detector*.py`: Script detect watermark trên ảnh/video, single/multi-thread, GPU
+- `dataset.py`: Dataset class và DataLoader, áp dụng transform, split train/val  
+- `model.py`: Định nghĩa model WatermarkNet (ResNet-based, 3 head: classification, intensity, bbox)
+- `train.py`: Vòng lặp huấn luyện, loss function, optimizer, training pipeline
+- `predict.py`: Hàm predict ảnh/video, vẽ overlay, Grad-CAM  
+- `gradio_app.py`: Chạy Gradio interface cho ảnh/video  
+- `labels.csv & labels.json`: Dataset labels lưu vĩnh viễn
 
 ---
 
@@ -58,47 +58,49 @@ Hệ thống hỗ trợ:
    - Train loop: loss tổng = cls + reg + bbox → backward → optimizer step  
    - Ví dụ: 5 epochs  
 
----
+
 
 ## Cài đặt
    ```
    git clone https:https://github.com/khlinhanh/Watermark-detection
-   ```
+  ```
+---
+### Cách mô hình hoạt động
 
-
-## Cách sử dụng & Huấn luyện mô hình
-
-### 5.1 Label ảnh mới
+## Label ảnh dữ liệu
  ```python
-python label_dataset.py
+python dataset.py
 ```
 Labels tự động lưu vào:
  ```
-my_dataset/labels.json
-```
- Và: 
- ```
-my_dataset/labels.csv
+labels.csv & labels.json
 ```
 
-### 5.2 Huấn luyện mô hình
+
+### Huấn luyện mô hình
  ```python
-python training/train_model.py
+python train.py
  ```
 - Dataset: ảnh/video thật có watermark
 - CSV format:filename,type,severity,x,y,width,height
  ```
 img_1.png,0,0.66,10,20,50,30
  ```
+**Dataset**:  
+- Để chạy demo trên Colab, tải dataset từ Google Drive: [Link tải dataset](https://drive.google.com/drive/folders/xxxxxx?usp=sharing)  
+- Colab mount Drive và đặt `dataset_folder = "/content/drive/MyDrive/watermark_dataset"`
+- Nếu clone repo về local, tạo thư mục `watermark_dataset` và copy dữ liệu vào
 
-### 5.3 Chạy demo Gradio
+---
+
+## Demo gradio
  ```python
-python demo/gradio_demo.py
+python gradio_app.py
  ```
 - Tab Image: upload ảnh, nhận overlay + Grad-CAM + type/intensity
 - Tab Video: upload video, xuất video highlight watermark
 
-### 5.4 Dùng model trực tiếp trong Python
+**Dùng model trực tiếp trong python**:
  ```python
 from detectors.DetectorImage import DetectorImage
 detector = DetectorImage(model_path="models/watermark_model.pth")
