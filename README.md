@@ -101,17 +101,6 @@ python gradio_app.py
 
 ---
 
-**Dùng model trực tiếp trong python**:
- ```python
-from detectors.DetectorImage import DetectorImage
-detector = DetectorImage(model_path="models/watermark_model.pth")
-result = detector.predict("path/to/image.jpg")
-print(result)
-
-from detectors.DetectorVideo import DetectorVideo
-detector = DetectorVideo(model_path="models/watermark_model.pth")
-detector.process_video("input.mp4", "output.mp4")
- ```
 
 ## Hiệu năng
 - Accuracy classification: ~92%
