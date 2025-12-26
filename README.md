@@ -26,7 +26,10 @@ Hệ thống hỗ trợ:
 - Trực quan hóa với bounding box và Grad-CAM
 
 ---
+## Mô tả hệ thống với AI
+Hệ thống sử dụng trí tuệ nhân tạo (AI) dựa trên mạng nơ-ron tích chập (CNN) với backbone ResNet (ResNet18 hoặc ResNet50) để xử lý và phân tích hình ảnh một cách thông minh. AI được huấn luyện trên dataset có watermark thực tế, cho phép mô hình tự động học các đặc trưng phức tạp của watermark như văn bản, logo hoặc pattern mà không cần quy tắc thủ công. Với kiến trúc multi-head, AI đồng thời dự đoán loại watermark (phân loại), cường độ (hồi quy), và vị trí chính xác (bounding box regression). Kỹ thuật Grad-CAM giúp giải thích quyết định của AI bằng cách hiển thị heatmap vùng quan trọng, tăng tính minh bạch và tin cậy. Ứng dụng AI này mang lại hiệu quả cao trong việc phát hiện watermark tự động, hỗ trợ xử lý hàng loạt ảnh/video mà con người khó thực hiện thủ công.
 
+---
 ## Các thành phần của dự án
 - `dataset.py`: Dataset class và DataLoader, áp dụng transform, split train/val  
 - `model.py`: Định nghĩa model WatermarkNet (ResNet-based, 3 head: classification, intensity, bbox)
